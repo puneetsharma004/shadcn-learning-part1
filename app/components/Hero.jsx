@@ -27,7 +27,7 @@ export default function Hero() {
                     </p>
                     <div className='w-[60%] mt-4'>
                         <InputGroup className="h-10">
-                            <InputGroupInput placeholder="Enter Your College Email" />
+                            <InputGroupInput placeholder="Enter Your College Email" className="bg-white"/>
                             <InputGroupAddon align="inline-end">
                             <InputGroupButton variant="secondary" className="bg-primary text-primary-foreground rounded-sm p-4">Get Started</InputGroupButton>
                             </InputGroupAddon>
@@ -36,7 +36,7 @@ export default function Hero() {
                 </div>
 
                 <div>
-                    <Image src="/hero.png" className='w-[600px]' width={10000} height={1000} alt='hero-image'/>
+                    <Image loading="eager" src="/hero.png" className='w-[600px]' width={10000} height={1000} alt='hero-image'/>
                 </div>
             </div>
         </section>
