@@ -32,9 +32,9 @@ const paymentCardData = [
 export default function Payment() {
   return (
     <>
-        <section className='px-30 '>
+        <section className='px-30 pt-30'>
             <div className='text-center'>
-                <h4 className="scroll-m-20 text-xl uppercase font-semibold tracking-tight mt-10">
+                <h4 className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
                 Featured Payement
                 </h4>
                 <h2 className="scroll-m-20 border-b pb-2 text-4xl font-semibold tracking-tight first:mt-0 my-5">

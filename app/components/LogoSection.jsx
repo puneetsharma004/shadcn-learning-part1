@@ -56,11 +56,11 @@ export default function LogoSection() {
                 ]}
                     >
                         <CarouselContent>
-                {logoData.map((logo, id)=>( 
-                            <CarouselItem className="basis-1/5" key={id}>
-                                <Image src={logo.src} width={1000} height={100} alt={logo.name} className='w-40'/>
-                            </CarouselItem>
-                    ))}
+                        {logoData.map((logo, id)=>( 
+                                    <CarouselItem className="basis-1/5" key={id}>
+                                        <Image src={logo.src} width={1000} height={100} alt={logo.name} className='w-40'/>
+                                    </CarouselItem>
+                            ))}
                         </CarouselContent>
                     </Carousel>
             </div>
